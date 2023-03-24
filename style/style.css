@@ -4,7 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     text-transform: capitalize;
-    background-image: url("/images/starfall-gif-46.gif");
+    background-image: url("images/starfall-gif-46.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +19,7 @@ body {
     max-width: 960px;
     margin: 0 auto;
     padding: 0 55px;
-    background-image: url("/images/bg1.png");
+    background-image: url("images/bg1.png");
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
