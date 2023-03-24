@@ -25,3 +25,9 @@
 
 # Credits
   This game was created by @saurabhdhumane
+  
+# Url
+
+Would You Like To play 
+[Click here] ([https://saurabhdhumane.github.io/guess-the-number/])
+
