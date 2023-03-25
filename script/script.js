@@ -84,3 +84,31 @@ function StartGame() {
         }
     } while (isNaN(CheckNumber) || CheckNumber !== Convert);
 }
+
+
+
+
+function displayWarning() {
+    alert("Right-clicking is not allowed on this page.");
+    return false;
+}
+
+
+document.addEventListener("visibilitychange", function () {
+    if (document.hidden) {
+      // Code to execute when the page is hidden
+      alert("Action not allow");
+    } else {
+      // Code to execute when the page is visible
+      console.log("Page visible");
+    }
+  });
+
+  window.addEventListener("devtoolschange", function (event) {
+    // Code to execute when the dev tools are opened or closed
+    if (event.detail.isOpen) {
+      console.log("Dev tools opened");
+    } else {
+      console.log("Dev tools closed");
+    }
+  });
